@@ -1,1 +1,1 @@
-const todoInput=document.querySelector(".todo-input");
+const todoInput=document.querySelector(".todo-input"),todoButton=document.querySelector(".todo-button"),todoList=document.querySelector(".todo-list");function addTodo(o){console.log("Hello")}todoButton.addEventListener("click",addTodo);
